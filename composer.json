@@ -1,0 +1,15 @@
+{
+    "name": "kov/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Kov\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mapseam",
+            "email": "mapseam@yandex.ru"
+        }
+    ],
+    "require": {}
+}
