@@ -11,5 +11,7 @@
             "email": "mapseam@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    }
 }
