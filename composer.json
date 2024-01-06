@@ -1,17 +1,24 @@
 {
     "name": "kov/hexlet-php",
     "autoload": {
-        "psr-4": {
-            "Kov\\HexletPhp\\": "src/"
-        }
+	"files": [
+		"src/Runner.php"
+	]
     },
     "authors": [
         {
-            "name": "Mapseam",
+            "name": "Oleg Kartashov",
             "email": "mapseam@yandex.ru"
         }
     ],
+    "scripts": {
+    	"phpcs": "phpcs",
+	"phpcbf": "phpcbf"
+    },
     "require": {
         "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.8"
     }
 }
